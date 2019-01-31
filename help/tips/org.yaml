@@ -1,0 +1,9 @@
+---
+org_sharing:
+  title: Ticket Sharing
+  content: >
+    <p> Organisaation tikettien jako sallii jäsenten pääsyn toisten organisaation jäsenten tiketteihin. </p> <p class="info-banner"> <i class="icon-info-sign"></i> Työtovereilla on aina pääsyt tiketteihin. </p>
+email_domain:
+  title: Email Domain
+  content: >
+    Käyttäjät voidaan lisätä tähän organisaatioon automaattisesti heidän sähköpostidomainiensa perusteella. Syötä allaolevaan laatikkoon yksi tai useampi domain eroteltuna pilkuilla. Esimerkiksi syötä <code>mycompany.com</code> lisätäksesi käyttäjät joiden sähköpostiosoite päättyy @mycompany.com

@@ -1,0 +1,9 @@
+---
+advanced:
+  title: Laajennettu
+  content: >
+    Tarkenna hakuehtojasi. Kun olet tehnyt hakuvalinnat ja suorittanut haun voit <span class="doc-desc-title">Viedä </span> datan tikettisivun alareunasta.
+export:
+  title: Vie
+  content: >
+    Vie näkyvät tiedot CSV-tiedostoon. CSV-tiedoston voi avata missä tahansa taulukkolaskentaohjelmassa (esim. Microsoft Excel, Apple Pages tai OpenOffice).

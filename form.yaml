@@ -1,0 +1,192 @@
+---
+- 
+  id: 1
+  type: U
+  title: Yhteystiedot
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: email
+      label: Sähköpostiosoite
+      sort: 1
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Koko nimi
+      sort: 2
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Puhelinnumero
+      sort: 3
+      flags: 13057
+    - 
+      type: memo
+      name: notes
+      label: Sisäiset muistiinpanot
+      sort: 4
+      flags: 12289
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T
+  title: Tiketin tiedot
+  instructions: Kuvaile ongelmaasi
+  notes: |
+    Tämä lomake liitetään jokaiseen tikettiin riippumatta sen lähteestä. Voit lisätä tähän haluamiasi kenttiä jonka jälkeen ne ovat käytettävissä jokaisessa tiketissä. Kenttien sisältö on etsittävissä laajennetun haun avulla ja voit myös suodattaa tulokset niiden avulla.
+  flags: 0
+  fields:
+    - 
+      id: 20
+      type: text
+      name: subject
+      label: Ongelman yhteenveto
+      sort: 1
+      flags: 489249
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread
+      name: message
+      label: Tarkemmat tiedot ongelmasta
+      hint: Tarkemmat syyt tiketin avaamiseen.
+      sort: 2
+      flags: 480547
+    - 
+      id: 22
+      type: priority
+      name: priority
+      label: Prioriteetin taso
+      flags: 274609
+      sort: 3
+- 
+  type: C
+  title: Yrityksen tiedot
+  instructions: Tarkemmat tiedot saatavilla sähköpostiviestipohjissa
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: name
+      label: Yrityksen nimi
+      sort: 1
+      flags: 291233
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text
+      name: website
+      label: Verkkosivu
+      sort: 2
+      flags: 12545
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Puhelinnumero
+      sort: 3
+      flags: 12545
+      configuration:
+        ext: false
+    - 
+      type: memo
+      name: address
+      label: Katuosoite
+      sort: 4
+      flags: 12545
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O
+  title: Organisaation tiedot
+  instructions: Lisätiedot käyttäjän organisaatiosta
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: name
+      label: Nimi
+      sort: 1
+      flags: 489379
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: address
+      label: Katuosoite
+      sort: 2
+      flags: 13057
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: phone
+      label: Puhelin
+      sort: 3
+      flags: 13057
+    - 
+      type: text
+      name: website
+      label: Verkkosivu
+      sort: 4
+      flags: 13057
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo
+      name: notes
+      label: Sisäiset muistiinpanot
+      sort: 5
+      flags: 12289
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  type: A
+  title: Task Details
+  instructions: Please Describe The Issue
+  notes: |
+    This form is used to create a task.
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: title
+      flags: 290977
+      sort: 1
+      label: Ostikko
+      configuration:
+        size: 40
+        length: 50
+    - 
+      type: thread
+      name: description
+      flags: 282867
+      sort: 2
+      label: Kuvaus
+      hint: Details on the reason(s) for creating the task.

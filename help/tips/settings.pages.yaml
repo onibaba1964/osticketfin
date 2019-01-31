@@ -1,0 +1,37 @@
+---
+company_information:
+  title: Yrityksen tiedot
+  content: >
+    Tämä viittaa yritykseen tai organisaatioon joka hyötyy osTicketin ohjelmistosta ja sen tukihenkilöstöstä. Tieto tästä ilmenee sähköpostien allekirjoituksissa  (kuten, alatunnisteessa) kun tiketteihin vastataan Käsittelijän toimesta.
+  links:
+    - 
+      title: Yritystiedot lomake
+      href: /scp/forms.php?type=C
+landing_page:
+  title: Aloitussivu
+  content: >
+    <span class="doc-desc-title">Aloitussivu</span> näytetään tukipalvelun etusivuna.
+offline_page:
+  title: Offline Sivu
+  content: >
+    <span class="doc-desc-title">Offline</span> sivu näytetään, kun tukipalvelu on pois käytöstä. Katso hallintapaneeli -&gt; Asetukset -&gt; Järjestelmä -&gt; Tukipalvelun tila.
+default_thank_you_page:
+  title: Oletus Kiitos sivu
+  content: >
+    <span class="doc-desc-title">Kiitos sivu</span> näytetään asiakkaalle kun <span class="doc-desc-title">Asiakas</span> lähettää uuden tiketin. <br/><br/> <span class="doc-desc-title">Kiitos</span> sivut voivat kuulua Ohjeotsikoihin.
+logos:
+  title: Logot
+  content: >
+    Voit valita <span class="doc-desc-title">Logon</span> jota käytetään Asiakassivustolla (kuten, sinun Tukisivut).
+upload_a_new_logo:
+  title: Lataa uusi logo
+  content: >
+    Valitse kuva .gif, .jpg tai .png muodossa. Skaalamme kuvan suhteessa alkuperäiseen kuvaan. Emme kuitenkaan, muuta alkuperäisen kuvan dataa. Siksi nopeuttaaksesi latausaikoja on suositeltavaa pitää kuvan koko lähellä oletuskuvakokoa (817px &times; 170px).
+backdrops:
+  title: Backdrops
+  content: >
+    You may customize the <span class="doc-desc-title">Backdrop</span> that will be displayed on the staff login page.
+upload_a_new_backdrop:
+  title: Upload a New Backdrop
+  content: >
+    Choose an image in the .gif, .jpg or .png formats. We will proportionally resize the display of your image. We will not, however, resize the image’s data. Therefore, to speed load times, it is recommended that you keep your image relatively small (under a megabyte). Note also that the PHP max upload settings apply.

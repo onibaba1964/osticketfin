@@ -1,0 +1,33 @@
+---
+- 
+  id: 1
+  role_id: 1
+  flags: 1
+  name: Leijonankesyttäjät
+  notes: Järjestelmän yliherrat. Näillä (oletuksena) on täysi hallinta niihin osastoihin, joihin heidät on linkattu.
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 2
+  role_id: 2
+  flags: 1
+  name: Elefantin Kävelyttäjät
+  notes: |
+    Norsunluutornin asukkaat
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 3
+  role_id: 2
+  flags: 1
+  name: Kärpäsenkouluttajat
+  notes: |
+    Nöyrät henkilöstön jäsenet
+  depts:
+    - 1
+    - 2
+    - 3

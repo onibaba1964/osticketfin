@@ -1,0 +1,84 @@
+---
+helpdesk_status:
+  title: Helpdesk tila
+  content: >
+    Jos tilaksi asetetaan<span class="doc-desc-opt"> Offline</span>, asiakkaan käyttöliittymä ei ole käytettävissä.  Asetus ei kuitenkaan vaikuta Käsittelijän hallintapaneelin toimintaan vaan se on normaalisti käytettävissä.
+helpdesk_url:
+  title: Helpdesk URL
+  content: >
+    Tämä URL-osoite perustuu osTicket asennukseesi. Sitä käytetään suorissa sähköpostikeskusteluissa helpdeskin loppukäyttäjiin.
+helpdesk_name_title:
+  title: Tukipalvelun nimi
+  content: >
+    Tämä otsikko näkyy selaimen välilehden nimenä. Jos sivusto lisätään kirjanmerkkeihin, näkyy tämä otsikko sivun nimenä.
+default_department:
+  title: Oletusosasto
+  content: >
+    Valitse oletus <span class="doc-desc-title">osasto</span> tiketeille joita ei automaattisesti ohjata tiettyyn osastoon. <br/><br/> Tikettejä voidaan ohjata perustuen ohjeotsikoihin, saapuviin sähköposteihin sekä tikettisuodattimien asetuksiin.
+default_page_size:
+  title: Oletus sivunkoko
+  content: >
+    Valitse kuinka monta kohdetta näytetään kerralla Henkilökunnan käyttöliittymän Tikettijono sivulla. Jokainen Käsittelijä voi myös määrittää omalle tilille yksilöllisen arvon <span class="doc-desc-title">Omat asetukset</span> sivulla.
+default_log_level:
+  title: Oletus lokitaso
+  content: >
+    Määrittele vähimmäistaso aiheille jotka tallennetaan <span class="doc-desc-title">Järjestelmälokiin</span>. <span class="doc-desc-opt">Korjaus</span> esittää vähiten vakavaa ja <span class="doc-desc-opt">Virhe</span> esittää kaikista vakavinta tasoa. Esimerkiksi, jos haluat kaikki tallennettavan <span class="doc-desc-title">Järjestelmälokeihin</span> valitse <span class="doc-desc-opt">Korjaus</span>.
+purge_logs:
+  title: Tyhjennä lokit
+  content: >
+    Määritä kuinka pitkään haluat säilyttää <span class="doc-desc-title">Järjestelmän lokeja</span> ennen poistamista.
+enable_richtext:
+  title: Enable Rich Text
+  content: >
+    Jos aktivoitu tämä sallii rtf-muotoilun Asiakkaan ja Käsittelijän viestinnässä.
+enable_avatars:
+  title: Enable Avatars on Thread View
+  content: >
+    Enable this to show <span class="doc-desc-title">Avatars</span> on thread correspondence. <br><br> The <span class="doc-desc-title">Avatar Source</span> can be set in Agents' and Users' settings pages.
+  links:
+    - 
+      title: Agents Settings
+      href: /scp/settings.php?t=agents
+    - 
+      title: Users Settings
+      href: /scp/settings.php?t=users
+collision_avoidance:
+  title: Käsittelijöiden törmäämisen välttäminen
+  content: >
+    Enter the maximum length of time an Agent is allowed to hold a lock on a ticket or task without any activity. <br><br> Enter <span class="doc-desc-opt">0</span> to disable the lockout feature.
+date_time_options:
+  title: Päiväys &amp; Aika Asetukset
+  content: >
+    The following settings define the default settings for Date &amp; Time settings for the help desk. You can choose to use the locale defaults for the selected locale or use customize the formats to meet your unique requirements. Refer to the ICU format strings as a reference for customization.  The dates shown below simply illustrate the result of their corresponding values.
+  links:
+    - 
+      title: See the ICU Date Formatting Table
+      href: 'http://userguide.icu-project.org/formatparse/datetime'
+languages:
+  title: System Languages
+  content: >
+    Choose a system primary language and optionally secondary languages to make your interface feel localized for your agents and end-users.
+primary_language:
+  title: System Primary Language
+  content: >
+    Content of this language is displayed to agents and end-users if their respective language preference is not currently available. This includes the content of the interface, as well as, custom content such as thank-you pages and email messages. <br/><br/> This is the language in which the untranslated versions of your content should be written.
+secondary_language:
+  title: Secondary Languages
+  content: >
+    Select language preference options for your agents and end-users. The interface will be available in these languages, and custom content, such as thank-you pages and help topic names, will be translatable to these languages.
+attachments:
+  title: Attachment Settings and Storage
+  content: >
+    Configure how attachments are stored.
+default_storage_bk:
+  title: File Storage Backend
+  content: >
+    Choose how attachments are stored. <br<br> Additional storage backends can be added by installing storage plugins
+max_file_size:
+  title: Tiedoston maksimikoko
+  content: >
+    Choose a maximum file size for attachments uploaded by agents. This includes canned attachments, knowledge base articles, and attachments to ticket and task replies. The upper limit is controlled by PHP's <code>upload_max_filesize</code> setting.
+  links:
+    - 
+      title: PHP ini settings
+      href: "http://php.net/manual/en/ini.core.php#ini.upload-max-filesize"
